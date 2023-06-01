@@ -4,7 +4,7 @@ use crimes;
 # Criação da tablea "localização"
 create table localizacao(
 	id int primary key auto_increment,
-    localC varchar(255) not null,
+    local varchar(255),
     rua varchar(255) not null,
     bairro varchar(255) not null
 );
