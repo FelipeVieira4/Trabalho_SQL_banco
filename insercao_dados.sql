@@ -8,8 +8,8 @@ insert into localizacao(local,rua,bairro) value
 
 insert into suspeito (nome,CPF,telefone,idade) value
 ("Elton","66666666624","47666666666",76),
-("Talles","07869645692","47963577418",45),
-("Leael","08439884555","47896654123",39),
+("José Albes","07869645692","47963577418",45),
+("Matheus Rodrigues","08439884555","47896654123",39),
 ("Felipe","09509604724","47852247963",24),
 ("Gabi","17994325896","47963258741",30),
 ("Joao","07406924926","47996543998",26),
