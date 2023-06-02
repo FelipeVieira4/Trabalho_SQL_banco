@@ -13,7 +13,7 @@ create table localizacao(
 create table crime(
 	id int primary key auto_increment,
     data date not null,
-    tipoCrime enum('Assalto','Roubo','Jogador LOL','Jogador Fortnite','Matar Aula','Usar Linux','Fazer BeatBox','Anti-terminal','Armi') not null,
+    tipoCrime enum('Assalto','Roubo','Jogador LOL','Matar Aula','Usar Linux','Trafico Drogas') not null,
     id_local int not null,foreign key(id_local) references localizacao(id)
 );
 
