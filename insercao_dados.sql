@@ -15,6 +15,3 @@ insert into suspeito (nome,CPF,telefone,idade) value
 ("Joao","07406924926","47996543998",26),
 ("Tomas","08960871378","47975586456",18);
 
-
-
-
