@@ -1,5 +1,5 @@
-create database crimes;
-use crimes;
+#create database crimes;
+#use crimes;
 
 # Criação da tablea "localização"
 create table localizacao(
@@ -13,7 +13,7 @@ create table localizacao(
 create table crime(
 	id int primary key auto_increment,
     data date not null,
-    tipoCrime enum('Assalto','Roubo','Jogador LOL','Matar Aula','Linux User','Trafico Drogas','Fraude') not null,
+    tipoCrime enum('Assalto','Jogador LOL','Matar Aula','Linux User','Trafico Drogas','Fraude') not null,
     id_local int not null,foreign key(id_local) references localizacao(id)
 );
 
