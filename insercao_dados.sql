@@ -29,14 +29,13 @@ insert into vitima (nome,cpf,id_crime)values
 ("Time de lol","02305889691",1),
 ("Talles","01478965416",2),
 ("Leael","96387415931",3),
-("Windows User","09415987456",4),
 ("professor","96387415931",5),
 ("Felipe","07894639510",6),
 ("Natanael","96387415931",7);
 
 
 insert into  crime_suspeito(id_crime,id_suspeito) values
-(1,1), # "Jogador LOL" "Elton"
+(1,1),
 (3,2),
 (2,3),
 (4,4),
