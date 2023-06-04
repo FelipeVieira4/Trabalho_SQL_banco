@@ -10,4 +10,4 @@ inner join suspeito on suspeito.id = crime_suspeito.id_suspeito;
 select localizacao.bairro as "Locais", suspeito.nome as "Suspeito" from crime_suspeito
 inner join crime on crime.id = crime_suspeito.id_crime
 inner join suspeito on suspeito.id = crime_suspeito.id_suspeito
-inner join localizacao on localizacao.id = crime.id_local;
+inner join localizacao on localizacao.id = crime.id_local; #where localizacao.bairro = "rio molha";
