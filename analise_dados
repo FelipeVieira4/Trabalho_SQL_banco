@@ -2,3 +2,5 @@ select tipoCrime,count(id) from crime group by tipoCrime;
 
 select bairro,count(crime.id) from localizacao inner join crime on crime.id_local = localizacao.id group by bairro
 order by count(crime.id);
+
+select crime.tipoCrime,count(suspeito.id) from crime_suspeito inner join suspeito on suspeito.id=crime_suspeito.id_suspeito inner join crime on crime.id = crime_suspeito.id_crime group by crime.tipoCrime;
