@@ -1,0 +1,1 @@
+select tipoCrime,count(id) from crime group by tipoCrime;
