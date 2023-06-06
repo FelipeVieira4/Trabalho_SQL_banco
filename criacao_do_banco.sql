@@ -44,7 +44,13 @@ create table crime_suspeito(
 #Criação da tabela "evidencia"
 create table evidencia(
 	id int primary key auto_increment,
-    iten varchar(255) not null,
+    item varchar(255) not null,
     id_crime int not null,foreign key(id_crime) references crime(id)
 );
 
+create table cumplice(
+	id int primary key auto_increment,
+	nome varchar(50),
+	idade int,
+	id_crime int,foreign key(id_crime) references crime(id)
+);

@@ -1,4 +1,3 @@
-#test
 
 select * from localizacao;
 select * from crime;

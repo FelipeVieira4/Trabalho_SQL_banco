@@ -3,8 +3,8 @@ insert into localizacao(local,rua,bairro) value
 ("Senai","R. Walter Marquart","Rio Molha"),
 ("Casa 483","R. João Klein","Vila Lenzi"),
 ("Casa 847","R. Affonso Nicoluzzi","RAU"),
-(null,"Av. Getúlio Vargas","Centro"),
-(null,"R. Hoje Morreu","Rio a Noite"),
+("NULO","Av. Getúlio Vargas","Centro"),
+("NULO","R. Hoje Morreu","Rio a Noite"),
 ("Predio 23","R. 15 de Setembro","Três Rios Do Sul");
 
 insert into suspeito (nome,CPF,telefone,idade) value
@@ -43,13 +43,19 @@ insert into  crime_suspeito(id_crime,id_suspeito) values
 (3,2),
 (2,3),
 (4,4),
-(4,4),
 (5,5),
 (6,7),
 (7,6),
+(7,5),
 (2,8);
 
-insert into evidencia(iten,id_crime) values
+insert into evidencia(item,id_crime) values
 ("Pistola 9mm",2),
 ("Cocaina no Mochila",7),
 ("Arch Linux",4);
+
+
+insert into cumplice (nome,idade,id_crime) value
+("Mecanico",29,5),
+("Talles Russo",20,3),
+("Antonio Armani",46,8);
