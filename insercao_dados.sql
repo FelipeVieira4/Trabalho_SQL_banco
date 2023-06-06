@@ -3,8 +3,8 @@ insert into localizacao(local,rua,bairro) value
 ("Senai","R. Walter Marquart","Rio Molha"),
 ("Casa 483","R. João Klein","Vila Lenzi"),
 ("Casa 847","R. Affonso Nicoluzzi","RAU"),
-("NULO","Av. Getúlio Vargas","Centro"),
-("NULO","R. Hoje Morreu","Rio a Noite"),
+("NULL","Av. Getúlio Vargas","Centro"),
+("NULL","R. Hoje Morreu","Rio a Noite"),
 ("Predio 23","R. 15 de Setembro","Três Rios Do Sul");
 
 insert into suspeito (nome,CPF,telefone,idade) value
