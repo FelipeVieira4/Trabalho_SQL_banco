@@ -13,3 +13,5 @@ inner join suspeito on suspeito.id = crime_suspeito.id_suspeito
 inner join localizacao on localizacao.id = crime.id_local; #where localizacao.bairro = "rio molha";
 
 select suspeito.idade,suspeito.nome from suspeito order by suspeito.idade;
+
+select crime.tipoCrime, evidencia.iten from crime inner join evidencia on evidencia.id_crime = crime.id;
